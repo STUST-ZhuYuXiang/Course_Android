@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="這裡是第一個頁面"
+            android:textSize="30dp"
+            android:textColor="@android:color/holo_red_dark" />
+
+        <Button
+            android:id="@+id/btn_toTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="開啟第二個頁面"
+            android:textSize="30dp"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
